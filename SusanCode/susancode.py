@@ -2,7 +2,7 @@
 Following along with TestandCode episode 80
 """
 
-__version__ = '0.2'
+__version__ = '0.4'
 
 
 def uppercase(sentence):
