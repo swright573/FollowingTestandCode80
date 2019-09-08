@@ -2,18 +2,27 @@
 Following along with TestandCode episode 80
 """
 
-__version__ = '0.4'
+__version__ = '0.01'
+
+
+# docstring and __version__ number are required by flit for packaging
 
 
 def uppercase(sentence):
-    return(sentence.upper())    
+    return sentence.upper
+
 
 def outtext(sentence):
     print(sentence)
     return
 
+
 def main():
     outtext('Hello world ... Susan here.')
+    return
+
+
+print(f"__name__ is {__name__}")
 
 if __name__ == "__main__":
     main()
